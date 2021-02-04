@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/table.css">
+  <title>Table</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-block">
+      <button class="m-menu">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Поиск IP или домена">
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="menu-sidebar">
+      <nav class="nav-group">
+
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            Создание ACL
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            Ресурсы VPN
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            История обращений
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            IP- адреса
+          </span>
+        </a>
+      </nav>
+    </div>
+
+
+    <div class="main-feed">
+      <ul class="pagination">
+        <li class="pagination__item">
+          <a class="pagination__link pagination__link--current" href="#">1</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="#">2</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="#">3</a>
+        </li>
+        <li class="pagination__item">
+          <a class="pagination__link" href="#">4</a>
+        </li>
+      </ul>
+      <div class="post">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td class="table-row-1">Имя Хоста</td>
+              <td class="table-row-1">IP-Адрес</td>
+              <td class="table-row-1">Ответственный</td>
+              <td class="table-row">Комментарии</td>
+            </tr>
+            <tr>
+              <td class="table-row-2a">Vmware43.Vesta.Ru</td>
+              <td class="table-row-2a">172.16.128.45</td>
+              <td class="table-row-2a">Бодров Юрий</td>
+              <td class="table-row-2">WMWare ESXi</td>
+            </tr>
+            <tr>
+              <td class="table-row-3a">Vmware44.Vesta.Ru</td>
+              <td class="table-row-3a">172.16.128.46</td>
+              <td class="table-row-3a">Рагулин Михаил</td>
+              <td class="table-row-3">WMWare ESXi</td>
+            </tr>
+            <tr>
+              <td class="table-row-4a">Vmware45.Vesta.Ru</td>
+              <td class="table-row-4a">172.16.128.47</td>
+              <td class="table-row-4a">Редовский Александр</td>
+              <td class="table-row-4">MGMT CheckPoint SMS http://Ot10.Vesta.Ru/Login.Aspx?Folder=FLD_CMDB</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+
+    </div>
+    <div class="right-sidebar">
+      <div class="database">
+        <table class="table-database">
+          <tbody>
+            <tr>
+            <td class="table-row__title">Набор Данных</td>
+            </tr>
+             <tr>
+             <td class="table-row__database">172.16.107.X Сервера Доступа</td>
+            </tr>
+            <tr>
+             <td class="table-row__database">172.16.110.X Тестовые Сервера</td>
+            </tr>
+             <tr>
+             <td class="table-row__database">172.16.104.X Сервера БД</td>
+            </tr>
+             <tr>
+             <td class="table-row__database">Default</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+      <div class="right-sidebar__download">
+      <h4 class="right-sidebar__title">Добавить данные</h4>
+      <div class="right-sidebar__file file">
+        <div class="file__item">
+          <input id="formImage" class="file__input" type="file" name="image"  accept=".jpg, .png, .gif">
+          <div class="file__button">Из Файла</div>
+        </div>
+        <!--<div id= "formPreview"  class="file__preview">
+          <img src="#" alt="Foto">
+        </div>-->
+      </div>
+      
+    </div>
+    </div>
+    
+  </div>
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
