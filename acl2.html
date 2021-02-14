@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!--<link rel="stylesheet" href="css/style.css">-->
+  <link rel="stylesheet" href="css/acl2.css">
+  <title>ACL2</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-block">
+
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Поиск IP или домена">
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="menu-sidebar">
+      <nav class="nav-group">
+
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            Создание ACL
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            Ресурсы VPN
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            История обращений
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            IP- адреса
+          </span>
+        </a>
+      </nav>
+    </div>
+
+
+    <div class="main-feed">
+
+      <div class="post">
+        <h1 class="title-block">Создание/Измененние ACL</h1>
+        <ul class="descr-list">
+
+          <li class="descr-item">
+            <a class="descr-link" href="#">Обзор</a>
+          </li>
+          <li class="descr-item">
+            <a class="descr-link descr-link--active" href="#">Заполнение формы</a>
+          </li>
+          <li class="descr-item">
+            <a class="descr-link" href="#">Формирование Обращения</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="post-sidebar">
+          <span class="post-title">Статус</span>
+          <ul class="post-list">
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+
+                <img class="post-link__circle--active" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle--active" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+
+
+
+          </ul>
+        </div>
+        <div class="post-container">
+          <div class="main-block">
+            <h4 class="main-title">2. Описание Доступа К Ресурсам<span>Required</span></h4>
+            <h5 class="main-description">2.1 Список Внутренних Ресурсов(СГ Альфа Страхование)</h5>
+          </div>
+       
+          <div class="form-row__wrapper">
+             <div class="form-row__top">
+              <label class="contact-form__label">
+               <input type="text" class="contact__input" placeholder="172.16.45.75">
+              </label>
+              <label class="contact-form__label">
+              <input type="text" class="contact__input" placeholder="/16">
+              </label>
+              <label class="contact-form__label">
+              <input type="text" class="contact__input" placeholder="Внутренняя сеть АС">
+              </label>
+              <button class="contact-form__button--minus"></button>
+             </div>
+             <div class="form-row__bottom">
+              <label class="contact-form__label">
+               <input type="text" class="contact__input" placeholder="172.16.45.75">
+              </label>
+              <label class="contact-form__label">
+              <input type="text" class="contact__input" placeholder="/16">
+              </label>
+              <label class="contact-form__label">
+              <input type="text" class="contact__input" placeholder="Внутренняя сеть АС">
+              </label>
+              <button class="contact-form__button--minus"></button>
+                <button class="contact-form__button--plus"></button>
+             </div>
+              
+              
+             
+            
+          </div>
+          <div class="form-row__footer">
+          <button type="submit" class="form-btn form-btn--submit">Сохранить И Продолжить</button>
+          </div>
+
+        </div>
+      </div>
+   </div>
+ </div>
+<script src="js/main.js"></script>
+</body>
+
+</html>

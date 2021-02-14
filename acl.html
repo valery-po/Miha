@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!--<link rel="stylesheet" href="css/style.css">-->
+  <link rel="stylesheet" href="css/ACL.css">
+  <title>ACL</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-block">
+
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Поиск IP или домена">
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="menu-sidebar">
+      <nav class="nav-group">
+
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            Создание ACL
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            Ресурсы VPN
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            История обращений
+          </span>
+        </a>
+        <a href="#" class="nav-link">
+
+          <span class="nav-text">
+            IP- адреса
+          </span>
+        </a>
+      </nav>
+    </div>
+
+
+    <div class="main-feed">
+
+      <div class="post">
+        <h1 class="title-block">Создание/Измененние ACL</h1>
+        <ul class="descr-list">
+
+          <li class="descr-item">
+            <a class="descr-link" href="#">Обзор</a>
+          </li>
+          <li class="descr-item">
+            <a class="descr-link descr-link--active" href="#">Заполнение формы</a>
+          </li>
+          <li class="descr-item">
+            <a class="descr-link" href="#">Формирование Обращения</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="post-sidebar">
+          <span class="post-title">Статус</span>
+          <ul class="post-list">
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+
+                <img class="post-link__circle--active" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+            <li class="post-list__item">
+              <a class="post-list__link" href="#">
+                <img class="post-link__circle" src="./img/check.svg" alt="icon:check">
+              </a>
+            </li>
+
+
+
+          </ul>
+        </div>
+        <div class="post-container">
+          <div class="main-block">
+            <h4 class="main-title">1. Контактная информация<span>Required</span></h4>
+          </div>
+          <div class="main-form">
+            <form class="contact-form" action="#">
+              <label class="contact-form__label">
+                <span class="contact-form__text">ФИО</span>
+                <input type="text" class="contact__input" placeholder="Иванов Иван">
+              </label>
+              <label class="contact-form__label">
+                <span class="contact-form__text">Отдел/Управление</span>
+                <input type="text" class="contact__input" placeholder="УИБ">
+              </label>
+
+              <label class="contact-form__label">
+                <span class="contact-form__text">Email</span>
+                <input type="email" name="Email" class="contact__input" placeholder="Norepl@Alfastrah.ru">
+              </label>
+
+              <label class="contact-form__label">
+                <span class="contact-form__text">Проект/ИС</span>
+                <input type="text" class="contact__input" placeholder="Легкий Вход">
+              </label>
+
+              <label class="contact-form__label">
+                <span class="contact-form__text">Телефон</span>
+                <input type="tel" name="Телефон" class="contact__input" placeholder="89096971821">
+              </label>
+            </form>
+
+
+          </div>
+          <div class="form-row__bottom">
+
+            <form class="contact-form__dates" actio="#">
+
+              <label class="contact-form__label-checkbox">
+                <span class="contact-form__text">Дата Вывода Из Эксплуатации</span>
+                <input type="text" class="contact__input" placeholder="21.01.2020">
+              </label>
+
+              <label class="contact-form__label-checkbox">
+                <span class="contact-form__text">Дата Ввода В Эксплуатацию</span>
+                <input type="text" class="contact__input" placeholder="">
+                <input type="checkbox" class="checkbox__real" name="value-05">
+              <!-- <span class="checkbox__fake"></span>-->
+                <span class="checkbox__title checkbox__title-active">Без Срока</span>
+            
+              </label>
+
+              <label class="contact-form__label-checkbox">
+                <span class="contact-form__text contact-form__text-active">Дата Заполнения</span>
+                <input type="text" class="contact__input" placeholder="21.01.2020">
+            </label>
+            </form>
+           <!-- <form class="checkbox-form" action="#">
+              <label class="checkbox">
+                <input type="checkbox" class="checkbox__real" name="value-05">
+                <span class="checkbox__fake"></span>
+                <span class="checkbox__title">Без Срока</span>
+              </label>
+            </form>-->
+
+
+
+          </div>
+          <div class="form-row__footer">
+          <form class="contact-form__submit" action="#">
+          <label class="label-form__submit">
+          <input type="checkbox" class="checkbox__real-submit" name="value-05">  
+          <span class="checkbox__fake"></span>
+          <span class="checkbox__title-footer">Сгенерировать Word Файл</span>
+          </label>
+         <label class="label-form__submit">
+          <input type="checkbox" class="checkbox__real-submit" name="value-05">  
+          <span class="checkbox__fake"></span>
+          <span class="checkbox__title-footer">Отправить обращение в OmniTracker</span>
+          </label>
+         
+          </form>
+           <button type="submit" class="form-btn form-btn--submit">Сохранить И Продолжить</button>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
